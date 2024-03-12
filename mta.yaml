@@ -15,6 +15,7 @@ build-parameters:
         - mkdir -p build/ui-deployer
     - builder: custom
       commands:
+        - npm install
         - npm install --production
         - >-
           bash -c "cds -v | grep 'cds-dk' || npm i --production --no-save
