@@ -31,4 +31,7 @@ entity Mitigations : managed
 {
     key ID : UUID;
     risks : Association to many Risks on risks.miti = $self;
+    description : String(100);
+    owner : String(100);
+    timeline : String(100);
 }

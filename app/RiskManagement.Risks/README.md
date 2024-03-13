@@ -1,7 +1,7 @@
 ## Application Details
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Tue Mar 12 2024 10:43:26 GMT+0000 (Coordinated Universal Time)|
+|**Generation Date and Time**<br>Wed Mar 13 2024 10:24:02 GMT+0000 (Coordinated Universal Time)|
 |**App Generator**<br>@sap/generator-fiori-elements|
 |**App Generator Version**<br>1.12.5|
 |**Generation Platform**<br>SAP Business Application Studio|
@@ -20,7 +20,7 @@
 
 ## RiskManagement.Risks
 
-Display risks
+UI for Risks
 
 ### Starting the generated app
 

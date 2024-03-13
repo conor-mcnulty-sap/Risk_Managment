@@ -73,6 +73,24 @@
         "run.config": "{\"handlerId\":\"lcap_run_config_handler_id\",\"runnableId\":\"{\\\"projectPath\\\":\\\"/home/user/projects/RiskManagement\\\",\\\"profileName\\\":\\\"\\\"}\"}",
         "runConfigurations": "{}"
       }
+    },
+    {
+      "name": "Run Risk_Managment-Mobile",
+      "runtimeExecutable": "cds",
+      "request": "launch",
+      "args": [
+        "watch",
+        "--open"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "type": "pwa-node",
+      "cwd": "${workspaceFolder}",
+      "preLaunchTask": "dev-project",
+      "envFile": "${workspaceFolder}/env/.env1",
+      "env": {
+        "run.config": "{\"handlerId\":\"lcap_run_config_handler_id\",\"runnableId\":\"{\\\"projectPath\\\":\\\"/home/user/projects/RiskManagement/srv/Risk_Managment\\\",\\\"profileName\\\":\\\"\\\"}\"}"
+      }
     }
   ]
 }

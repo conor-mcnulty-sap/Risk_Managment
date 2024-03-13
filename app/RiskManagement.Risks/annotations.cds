@@ -44,6 +44,18 @@ annotate service.Risks with {
                 LocalDataProperty : miti_ID,
                 ValueListProperty : 'ID',
             },
+            {
+                $Type : 'Common.ValueListParameterDisplayOnly',
+                ValueListProperty : 'description',
+            },
+            {
+                $Type : 'Common.ValueListParameterDisplayOnly',
+                ValueListProperty : 'owner',
+            },
+            {
+                $Type : 'Common.ValueListParameterDisplayOnly',
+                ValueListProperty : 'timeline',
+            },
         ],
     }
 };
@@ -117,13 +129,13 @@ annotate service.Risks with @(
             },
             {
                 $Type : 'UI.DataField',
-                Value : supplier.BusinessPartnerFullName,
-                Label : 'BusinessPartnerFullName',
+                Value : supplier.BusinessPartnerIsBlocked,
+                Label : 'BusinessPartnerIsBlocked',
             },
             {
                 $Type : 'UI.DataField',
-                Value : supplier.BusinessPartnerIsBlocked,
-                Label : 'BusinessPartnerIsBlocked',
+                Value : supplier.BusinessPartnerFullName,
+                Label : 'BusinessPartnerFullName',
             },
         ],
     },
@@ -137,5 +149,5 @@ annotate service.Risks with @(
     ]
 );
 annotate service.Risks with {
-    supplier @Common.ValueListWithFixedValues : false
+    supplier @Common.ValueListWithFixedValues : true
 };

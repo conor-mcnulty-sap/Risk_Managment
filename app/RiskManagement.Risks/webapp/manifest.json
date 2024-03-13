@@ -13,11 +13,11 @@
     "sourceTemplate": {
       "id": "@sap/generator-fiori:lrop",
       "version": "1.12.5",
-      "toolsId": "800d923a-e46e-4c37-9bc8-a0bd9d1ca89c"
+      "toolsId": "95b9df35-c24b-4d95-a944-ba808544455e"
     },
     "dataSources": {
       "mainService": {
-        "uri": "service/RiskManagementSvcs/",
+        "uri": "/service/RiskManagementSvcs/",
         "type": "OData",
         "settings": {
           "annotations": [],
@@ -145,9 +145,5 @@
   "sap.fiori": {
     "registrationIds": [],
     "archeType": "transactional"
-  },
-  "sap.cloud": {
-    "public": true,
-    "service": "lcap.RiskManagement"
   }
 }
